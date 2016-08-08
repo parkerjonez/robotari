@@ -308,7 +308,7 @@ function receivedMessage(event) {
         break;
 
       default:
-        sendTextMessage(senderID, messageText + " -ish");
+        sendTextMessage(senderID, messageText + " -said the robot");
     }
   } else if (messageAttachments) {
     sendTextMessage(senderID, "Message with attachment received");
